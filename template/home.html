@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <nav>
+        <ul id="main">
+            <li class="li"><i class="fa-solid fa republican" class="fa-solid"></i></li>
+            <li class="li">Home</li>
+            <a href="{% url 'stucareer:about' %}"><li class="li">About Us</li></a>
+            <a href="{% url 'stucareer:about' %}"><li class="li">Contact</li></a>
+        </ul>
+    </nav>
+    
+</body>
+</html>
